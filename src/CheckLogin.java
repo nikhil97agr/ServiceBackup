@@ -10,7 +10,7 @@ public class CheckLogin  extends UnicastRemoteObject implements  LoginInterface
     }
 public boolean check(String userId,String password)throws RemoteException
 {
-if(userId.equals("abc") && password.equals("abc123"))    
+if(userId.equals("") && password.equals(""))    
     return true;
 else
     return false;
